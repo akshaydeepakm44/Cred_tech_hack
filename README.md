@@ -34,9 +34,7 @@ ML Model	DecisionTreeClassifier	Interpretable, fast, explainable
 Explainability	SHAP	Industry standard for feature importance
 Sentiment Analysis	TextBlob + VADER	Easy-to-use, polarity and intensity analysis
 Backend Logic	Python	Strong ecosystem for finance and ML
-4. Installation & Run
-git clone https://github.com/yourusername/credit-intelligence-platform.git
-cd credit-intelligence-platform
+
 
 # Add your API keys
 ALPHA_VANTAGE_API_KEY=your_alpha_vantage_key
@@ -45,7 +43,7 @@ NEWS_API_KEY=your_newsapi_key
 # Run the Streamlit dashboard
 streamlit run app.py
 
-5. Code Flow
+4. Code Flow
 
 Imports & Config: Load all required libraries and store API keys
 
@@ -77,7 +75,7 @@ Inputs: Stock ticker & company name
 
 Visual outputs: Stock charts, GDP data, news sentiment, credit risk prediction, SHAP plots
 
-6. Demo Flow
+5. Demo Flow
 
 Enter a company ticker (e.g., AAPL)
 
